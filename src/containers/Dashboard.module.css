@@ -1,0 +1,53 @@
+.navbar{
+    position: fixed;
+	min-width:290px;
+	top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    background-color: honeydew;
+    border-color: rgba(0, 22, 22, 0.4);	
+    text-align: inherit;
+}
+.navbar li{
+    text-align: left;
+    list-style: none;
+    padding: 0.7em;
+}
+a, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    text-align: left;
+}
+.nameID{
+    line-height: 10%;
+}
+.nameID p{
+    font-size: 12px;
+    text-align: center;
+}
+.button{
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 0 5em;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.menu{
+    text-align: left;
+    color: lightslategray;
+}
+.last{
+    position: fixed;
+    bottom: 20px;
+}
+
