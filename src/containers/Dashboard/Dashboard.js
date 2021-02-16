@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Dashboard.module.css'
-import profile from '../assets/profile.jpg'
+import profile from '../../assets/profile.jpg'
 
 const Dashboard = () => (
     <React.Fragment>
@@ -17,12 +17,12 @@ const Dashboard = () => (
             <ul>
                 <li className={classes.menu}>MENU</li>
                 {/*<li><a className={classes.navLink} href="#dashboard">Dashboard</a></li>*/}
-                <li>Dashboard</li>
-                <li>My Projects</li>
-                <li>My Team</li>
-                <li>Notifications</li>
-                <li>Settings</li>
-                <li className={classes.last}>Logout</li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">My Projects</a></li>
+                <li><a href="#">My Team</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Settings</a></li>
+                <li className={classes.last}><a href="#">Logout</a></li>
             </ul>
         </nav>
     </React.Fragment>
