@@ -1,0 +1,10 @@
+.myHeader{
+    /* float: right; */
+    position: absolute;
+    top: 0;
+    padding-left: 330px;
+}
+.heading{
+    text-align: left;    
+    font-size: 1.5rem;
+}
