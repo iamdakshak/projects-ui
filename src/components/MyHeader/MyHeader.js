@@ -1,9 +1,9 @@
 import React from 'react';
-import classes from './MyHeader.css';
+import classes from './MyHeader.module.css';
 
 const MyHeader = () => (
-    <div className="myHeader">
-        <p className="heading">My Projects</p>
+    <div className={classes.myHeader}>
+        <p className={classes.heading}>My Projects</p>
     </div>
 );
 

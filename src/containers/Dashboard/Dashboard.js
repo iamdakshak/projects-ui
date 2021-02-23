@@ -7,7 +7,7 @@ const Dashboard = () => (
         <nav className={classes.navbar}>
             <header><h1>DAKSHAK</h1></header>
             <div className={classes.nameID}>
-                <img src={profile} className={[classes.header, classes.headerImg].join(' ')} />
+                <img src={profile} alt="Profile" className={[classes.header, classes.headerImg].join(' ')} />
                 <h3>Dakshak Nagrale</h3>
                 <p>Founder & CEO</p>
             </div>
